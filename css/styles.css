@@ -511,7 +511,7 @@ a.link-underline:hover { color: var(--color-green-accent); }
 
 @media (max-width: 700px) {
   .hero { height: 100vh; min-height: 620px; }
-  .hero-img { object-position: 66% center; transform: scale(1.35); transform-origin: 66% 70%; }
+  .hero-img { object-position: 54% center; }
   .hero-scrim {
     background:
       linear-gradient(180deg, rgba(8,11,8,0.62) 0%, rgba(8,11,8,0) 15%),
