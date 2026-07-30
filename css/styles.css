@@ -509,7 +509,26 @@ a.link-underline:hover { color: var(--color-green-accent); }
 }
 .hero-reviews .google-g { width: 18px; height: 18px; flex-shrink: 0; }
 .hero-reviews .stars { color: var(--color-amber); letter-spacing: 0.03em; font-size: 0.85rem; }
+.hero-reviews .rating-number { font-weight: 700; }
 .hero-reviews .reviews-divider { width: 1px; align-self: stretch; background: rgba(255,255,255,0.4); }
+
+.reviews-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: var(--color-bg-alt);
+  border: 1px solid var(--color-border);
+  border-radius: 999px;
+  padding: 0.6rem 1.1rem;
+  color: var(--color-text);
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin-top: 1rem;
+}
+.reviews-badge .google-g { width: 18px; height: 18px; flex-shrink: 0; }
+.reviews-badge .stars { color: var(--color-amber); letter-spacing: 0.03em; font-size: 0.9rem; }
+.reviews-badge .rating-number { font-weight: 700; color: var(--color-text); }
+.reviews-badge .reviews-divider { width: 1px; align-self: stretch; background: var(--color-border); }
 
 @media (max-width: 700px) {
   .hero { height: 100vh; min-height: 620px; }
@@ -947,6 +966,13 @@ section.tight { padding: 2.5rem 0; }
 .prose ul { margin: 0 0 1.1rem 0; }
 .prose ul li { position: relative; padding-left: 1.4rem; margin-bottom: 0.5rem; color: var(--color-text-soft); }
 .prose ul li::before { content: "\2713"; position: absolute; left: 0; color: var(--color-forest); font-weight: 700; }
+.prose p.signature {
+  font-family: var(--font-display);
+  font-style: italic;
+  font-size: 1.05rem;
+  color: var(--color-forest-dark);
+  margin-top: -0.4rem;
+}
 
 .two-col {
   display: grid;
