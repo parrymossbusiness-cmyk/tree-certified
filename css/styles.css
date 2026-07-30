@@ -509,6 +509,7 @@ a.link-underline:hover { color: var(--color-green-accent); }
 }
 .hero-reviews .google-g { width: 18px; height: 18px; flex-shrink: 0; }
 .hero-reviews .stars { color: var(--color-amber); letter-spacing: 0.03em; font-size: 0.85rem; }
+.hero-reviews .reviews-divider { width: 1px; align-self: stretch; background: rgba(255,255,255,0.4); }
 
 @media (max-width: 700px) {
   .hero { height: 100vh; min-height: 620px; }
@@ -524,7 +525,7 @@ a.link-underline:hover { color: var(--color-green-accent); }
   .hero-text h1 { font-size: 1.55rem; line-height: 1.22; margin-bottom: 0.5rem; }
   .hero-text .hero-subhead { font-size: 0.82rem; line-height: 1.4; margin-bottom: 0.75rem; max-width: 260px; }
   .hero-ctas { flex-direction: column; align-items: flex-start; gap: 0.4rem; }
-  .hero-ctas .btn { width: auto; padding: 0.5rem 1.1rem; font-size: 0.82rem; }
+  .hero-ctas .btn { width: 215px; padding: 0.5rem 1.1rem; font-size: 0.82rem; }
   .hero-reviews { margin-top: 0.4rem; padding: 0.35rem 0.75rem; font-size: 0.75rem; }
 }
 
