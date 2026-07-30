@@ -443,7 +443,7 @@ a.link-underline:hover { color: var(--color-green-accent); }
 .hero {
   position: relative;
   width: 100vw;
-  height: 90vh;
+  height: 100vh;
   min-height: 560px;
   overflow: hidden;
 }
