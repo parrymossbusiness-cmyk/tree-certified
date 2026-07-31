@@ -535,8 +535,8 @@ a.link-underline:hover { color: var(--color-green-accent); }
   .hero-img { object-position: center center; }
   .hero-scrim {
     background:
-      linear-gradient(180deg, rgba(8,11,8,0.62) 0%, rgba(8,11,8,0) 15%),
-      linear-gradient(0deg, rgba(8,11,8,0.95) 0%, rgba(8,11,8,0.85) 45%, rgba(8,11,8,0.4) 72%, rgba(8,11,8,0) 100%);
+      linear-gradient(180deg, rgba(8,11,8,0.4) 0%, rgba(8,11,8,0) 15%),
+      linear-gradient(0deg, rgba(8,11,8,0.55) 0%, rgba(8,11,8,0.42) 45%, rgba(8,11,8,0.18) 72%, rgba(8,11,8,0) 100%);
   }
   .hero-content { align-items: flex-end; padding-bottom: 1rem; }
   .hero-text { max-width: 78%; text-align: left; }
